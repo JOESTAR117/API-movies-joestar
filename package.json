@@ -1,0 +1,24 @@
+{
+  "name": "back-end-netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node  src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOESTAR117/Back-end-Netflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOESTAR117/Back-end-Netflix/issues"
+  },
+  "homepage": "https://github.com/JOESTAR117/Back-end-Netflix#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
