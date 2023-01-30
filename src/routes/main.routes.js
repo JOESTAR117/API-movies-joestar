@@ -1,5 +1,5 @@
 import Router from 'express';
-import { allMovies, createMovies, oneMovie } from '../controllers/movies.controllers.js';
+import { allMovies, createMovies, deleteMovies, oneMovie, updateMovies } from '../controllers/movies.controllers.js';
 
 
 const routes = Router();
@@ -7,6 +7,8 @@ const routes = Router();
 routes.post('/',createMovies)
 routes.get('/',allMovies)
 routes.get('/:id',oneMovie)
+routes.patch('/:id',updateMovies)
+routes.delete('/:id',deleteMovies)
 
 
 export default routes;
