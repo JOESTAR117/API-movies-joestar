@@ -53,7 +53,7 @@ const updateMovies = async (req, res) => {
       res.status(400).send({ message: 'Submit all fields for registration' });
     }
 
-    const newMovie = await Movies.findByIdAndUpdate({ _id: id }, info);
+    const newMovie = await Movies.findOneAndUpdate({ _id: id }, info);
 
     await newMovie.save();
 
@@ -67,13 +67,13 @@ const deleteMovies = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const remove = await Movies.findByIdAndRemove({ _id: id });
+    const deleted = await Movies.findByIdAndDelete({ _id: id });
 
-    if (!remove) {
+    if (!deleted) {
       return res.json({ message: 'no movie was found' });
     }
 
-    res.json(remove);
+    res.json(deleted);
   } catch (err) {
     res.status(500).json(err.message);
   }

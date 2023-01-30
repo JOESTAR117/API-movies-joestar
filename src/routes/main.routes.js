@@ -5,9 +5,13 @@ import { allMovies, createMovies, deleteMovies, oneMovie, updateMovies } from '.
 const routes = Router();
 
 routes.post('/',createMovies)
+
 routes.get('/',allMovies)
+
 routes.get('/:id',oneMovie)
+
 routes.patch('/:id',updateMovies)
+
 routes.delete('/:id',deleteMovies)
 
 
