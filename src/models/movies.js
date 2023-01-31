@@ -5,17 +5,29 @@ const MoviesSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  actors: {
+  type: {
+    type: String,
+  },
+  cover: {
+    type: String,
+  },
+  logo: {
+    type: String,
+  },
+  thumb: {
+    type: String,
+  },
+  description: {
+    type: String,
+  },
+  genre: {
     type: Array,
   },
-  year: {
-    type: Number,
+  cast: {
+    type: Array,
   },
-  details: {
-    type: Object,
-  },
-  awards: {
-    type: [Object],
+  scenes: {
+    type: Array,
   },
 });
 
