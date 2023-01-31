@@ -1,4 +1,13 @@
 import User from '../models/user.js';
+import bcrypt from 'bcrypt';
+import  {loginService, generateToken } from '../services/loginService.js';
+
+
+const allUsers = async(req,res) =>{
+  const users = await User.find()
+
+  return res.json(users)
+}
 
 const createUser = async (req, res) => {
   try {
@@ -13,18 +22,27 @@ const createUser = async (req, res) => {
 };
 
 const login = async (req, res) => {
+  const {email,password} = req.body
   try {
-    const credentials = req.body;
-    const user = await User.findOne(credentials);
+    const user = await loginService(email)
 
-    if (user) {
-      res.json(user);
-    } else {
-      res.json('No users found');
+    if(!user){
+      return res.status(404).send({ message: "User or Password not found" });
     }
+
+    const passwordIsValid = bcrypt.compareSync(password, user.password)
+
+    if(!passwordIsValid){
+      return res.status(404).send({ message: "User or Password not found" });
+    }
+
+    const token = generateToken(user.id)
+
+    res.json({user,token})
+    
   } catch (err) {
     res.status(500).send(err.message);
   }
 };
 
-export { createUser, login };
+export { createUser, login, allUsers };
