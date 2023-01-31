@@ -1,19 +1,16 @@
-import connectDatabase from "../database/db.js";
-import Movies from "../models/movies.js";
-import moviesJSON from "../data/movie.json"
+const database = require('../database/db');
+const Movies = require('../models/movies.js');
+const moviesJSON = require('../data/movie.json');
 
 const addMovies = async () => {
-    try{
-
-        for(let movie of moviesJSON){
-            console.log(`Inserondo ${movie.title}`)
-            await new Movies(movie).save()
-        }
-        console.log('Finished script')
-
-    }catch (err) {
-    res.status(500).json(err.message);
+  try {
+    for (let movie of moviesJSON) {
+      console.log(`Inserting ${movie.title}`);
+      await new Movies(movie).save();
+    }
+    console.log('Finished script');
+  } catch (err) {
+    console.log(err);
   }
-}
+};
 
-addMovies()

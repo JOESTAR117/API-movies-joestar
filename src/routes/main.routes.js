@@ -1,8 +1,10 @@
 import Router from 'express';
-import { allMovies, createMovies, deleteMovies, oneMovie, updateMovies } from '../controllers/movies.controllers.js';
+import { allMovies, createMovies, deleteMovies, homeMovies, oneMovie, updateMovies } from '../controllers/movies.controllers.js';
 
 
 const routes = Router();
+
+routes.get('/home', homeMovies)
 
 routes.post('/',createMovies)
 
