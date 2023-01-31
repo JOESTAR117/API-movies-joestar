@@ -21,18 +21,24 @@ const homeMovies = async (req, res) => {
 
     for (let movie of movies) {
       const season = await Season.find({
-        movie_id: movie._id,
+        movie_id: movie._id
       });
+    
+    const newMovie = { ...movie._doc, season };
+    finalMovies.push(newMovie)
     }
 
-    const newMovie = { ...movies._doc, seasons };
     finalMovies = _.shuffle(finalMovies);
 
     const mainMovie = finalMovies[0];
 
-    const sections = _.chunk(finalMovies);
+    const sections = _.chunk(finalMovies, 5);
 
-    return res.json(mainMovie, sections);
+    res.json({
+      mainMovie,
+      sections
+    })
+
   } catch (err) {
     res.status(500).json(err.message);
   }
