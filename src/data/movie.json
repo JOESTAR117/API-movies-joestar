@@ -1,0 +1,185 @@
+[
+    {
+        "title": "Enola Holmes",
+        "type": "Movie",
+        "cover": "https://i.imgur.com/QGgXFl6.png",
+        "logo": "https://i.imgur.com/ZqxNOCO.png",
+        "thumb": "https://i.imgur.com/tPqnpDv.png",
+        "description": "Enola Holmes is a mistery movie.",
+        "genre": [
+            "Movies for the Whole Family",
+            "Period Dramas",
+            "Based in Books"
+        ],
+        "cast": [
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Claflin"
+        ],
+        "scenes": [
+            "Spiritual",
+            "Thriller",
+            "Exciting"
+        ]
+    },
+    {
+        "title": "Gotham",
+        "type": "Series",
+        "cover": "https://i.imgur.com/iDm1pXK.png",
+        "logo": "https://i.imgur.com/oytW0ZC.png",
+        "thumb": "https://i.imgur.com/D6vEM6k.png",
+        "description": "Lieutenant James Gordon comes to Gotham in order to fight crime.",
+        "genre": [
+            "Crime Dramas",
+            "HQ Based",
+            "Drama Series"
+        ],
+        "cast": [
+            "Ben MacKenzie",
+            "Donal Logue",
+            "Jada Pinkett Smith"
+        ],
+        "scenes": [
+            "Exciting",
+            "Vigorous"
+        ]
+    },
+    {
+        "title": "The Punisher",
+        "type": "Series",
+        "cover": "https://i.imgur.com/eXbhbs4.png",
+        "logo": "https://i.imgur.com/TKwvurS.png",
+        "thumb": "https://i.imgur.com/pa4Sd2m.png",
+        "description": "Former Marine Frank Castle seeks revenge for the deaths of his wife and children, uncovering in the process a conspiracy that extends beyond New York's criminal underworld and the military.",
+        "genre": [
+            "Action",
+            "HQ Based",
+            "Drama Series"
+        ],
+        "elecon": [
+            "Jon Bernthal",
+            "Amber Rose Revah",
+            "Ben Barnes"
+        ],
+        "scenes": [
+            "Exciting",
+            "Vigorous",
+            "Realist"
+        ]
+    },
+    {
+        "title": "Lucifer",
+        "type": "Series",
+        "cover": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/39422_ECC488324031266C.jpg",
+        "logo": "https://www.kindpng.com/picc/m/110-1101144_lucifer-lucifer-serie-logo-png-transparent-png.png",
+        "thumb": "https://raw.githubusercontent.com/SirGuiL/netflix-clone/main/assets/images/filmes/lucifer.jpg",
+        "description": "Former Marine Frank Castle seeks revenge for the deaths of his wife and children, uncovering in the process a conspiracy that extends beyond New York's criminal underworld and the military.",
+        "genre": [
+            "Action",
+            "HQ Based",
+            "Drama Series"
+        ],
+        "elecon": [
+            "Jon Bernthal",
+            "Amber Rose Revah",
+            "Ben Barnes",
+            "Jason R. Moore"
+        ],
+        "scenes": [
+            "Exciting",
+            "Vigorous",
+            "Realist"
+        ]
+    },
+    {
+        "title": "The 100",
+        "type": "Series",
+        "cover": "https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2017/03/the-100.jpg",
+        "logo": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABScemJ_qbSpO-OWHqnTEC-MGCZKFyXul4oqqmsI02eR_A6p6vYlMcDOGkks00w8M_4pP5HSScfrb8vhdwEibtX9Bh4GxOW7q87s3.png?r=6c0",
+        "thumb": "https://ucarecdn.com/2891c3f5-74fb-4e32-ba63-e90c5f81a2ef/",
+        "description": "Lieutenant James Gordon comes to Gotham in order to fight crime.",
+        "genre": [
+            "Crime Dramas",
+            "HQ Based",
+            "Drama Series"
+        ],
+        "cast": [
+            "Ben MacKenzie",
+            "Donal Logue",
+            "Jada Pinkett Smith"
+        ],
+        "scenes": [
+            "Exciting",
+            "Vigorous"
+        ]
+    },
+    {
+        "title": "O Diabo de Cada Dia",
+        "type": "Movie",
+        "cover": "https://ucarecdn.com/9e8993ac-1172-4a17-962b-c65b4841b74b/",
+        "logo": "https://ucarecdn.com/a6552dbd-e1b6-45e0-93e4-a0e970bec62d/",
+        "thumb": "https://ucarecdn.com/9e8993ac-1172-4a17-962b-c65b4841b74b/",
+        "description": "O diabo de cada dia.",
+        "genre": [
+            "Movies for the Whole Family",
+            "Period Dramas",
+            "Based in Books"
+        ],
+        "cast": [
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Claflin"
+        ],
+        "scenes": [
+            "Spiritual",
+            "Thriller",
+            "Exciting"
+        ]
+    },
+    {
+        "title": "Locke & Key",
+        "type": "Series",
+        "cover": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Locke-Key1-scaled.jpg",
+        "logo": "https://occ-0-4355-420.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABdLKN01bXQiVADx8BZgNUrEg4WzpWOeUgHkd0E7X_TbkFmri8RmbWsPFtXmFU0-YMwga4YDjpPVwpd9wls-jnximuwWylPzH4Ypfg6wLMqB8NQOovBw3nzOZboDhFiGL9y0ra0OeeOvCUYBo7mH1JaUybgfyzAhSb8KI5jkyweHkykNJxMOb_A.webp?r=080",
+        "thumb": "https://townsquare.media/site/74/files/2020/02/Screen-Shot-2020-02-20-at-9.55.03-AM.png",
+        "description": "Depois que os Lockes se mudam para Key House, Bode faz uma nova amizade e uma surpreendente descoberta. Tyler e Kinsey buscam um recomeço em uma nova escola.",
+        "genre": [
+            "Séries de fantasia",
+            "Séries teen",
+            "Séries dramáticas"
+        ],
+        "cast": [
+            "Darby Stanchfield",
+            "Connor Jessup",
+            "Emilia Jones"
+        ],
+        "scenes": [
+            "Spiritual",
+            "Teen",
+            "Exciting"
+        ]
+    },
+    {
+        "title": "The Witcher",
+        "type": "Series",
+        "cover": "https://tm.ibxk.com.br/2021/12/17/17085309466021.jpg",
+        "logo": "https://occ-0-4355-420.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABXc3gt-ym-33ZvIIavKZTEBPrMNJi8hTkwVUQ4bQ8M0Qp-SIwhRPwVogt4N2aieVc_tl6wcPZ894u4pnPXo5ltoYQBNUpOQvQ3uk--wtnBRkBS_SojBpBHllqwMr9R30qek9NBpq1SyJXGzh_3SQpeDF9PISZG3y5yc2BNWjLL62m-lJkN1l.webp?r=095",
+        "thumb": "https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXg51hE-1qoRnsNu2KdKAQfL8k29HTDk1-gLyCyZIFNNuL3VwamMY2Xvd5YBIoWr2RfneGv4WHwVoovnVmNmwNVFuFIQ.jpg?r=2f0",
+        "description": "Ao chegar à cidade de Blaviken, Geralt encontra pessoas hostis e um mago esperto. O mundo de Ciri vira de pernas para o ar quando Nilfgaard se prepara para atacar Cintra.",
+        "genre": [
+            "Séries de fantasia",
+            "Séries baseadas em livro",
+            "Séries dramáticas"
+        ],
+        "cast": [
+            "Henry Cavill",
+            "Anya Chalotra",
+            "Freya Allan"
+        ],
+        "scenes": [
+            "Spiritual",
+            "Teen",
+            "Exciting"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Uma Thurman",
+        "email": "umathurman@gmail.com",
+        "password": "12345"
+    },
+    {
+        "name": "Jackson Rios",
+        "email": "jackson@gmail.com",
+        "password": "12345"
+    },
+    {
+        "name": "Quentin Tarantino",
+        "email": "tarantino@gmail.com",
+        "password": "12345"
+    }
+]
