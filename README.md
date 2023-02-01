@@ -1,5 +1,7 @@
-# Back-end-Netflix
-Projeto pessoal para eu colocar em pratica habilidades que eu aprendi durante meus estudos.
+# API-movies-Joestar
+Projeto pessoal para eu colocar em pratica habilidades que eu aprendi durante meus estudos.Podem fazer o que quiser com ele se quiserem ajudar criando mais rotas agradeço.
+
+![O-que-e-API-e-para-que-serve_capa](https://user-images.githubusercontent.com/116031921/215921042-249b8608-daad-4564-9c36-a8450cbb3dcb.png)
 
 <h1> Rotas </h1>
 
