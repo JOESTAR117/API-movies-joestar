@@ -3,11 +3,7 @@ import bcrypt from 'bcrypt';
 import  {loginService, generateToken } from '../services/loginService.js';
 
 
-const allUsers = async(req,res) =>{
-  const users = await User.find()
 
-  return res.json(users)
-}
 
 const createUser = async (req, res) => {
   try {
@@ -45,4 +41,4 @@ const login = async (req, res) => {
   }
 };
 
-export { createUser, login, allUsers };
+export { createUser, login};
