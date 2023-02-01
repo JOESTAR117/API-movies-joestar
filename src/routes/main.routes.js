@@ -13,12 +13,12 @@ import { createUser, login } from '../controllers/users.controllers.js';
 const routes = Router();
 
 routes.get('/home', homeMovies);
-routes.post('/', createMovies);
-routes.get('/', allMovies);
-routes.get('/:id', oneMovie);
-routes.patch('/:id', updateMovies);
-routes.delete('/:id', deleteMovies);
-routes.get('/season/:id', season);
+routes.post('/movies', createMovies);
+routes.get('/movies', allMovies);
+routes.get('/movies/:id', oneMovie);
+routes.patch('/movies/:id', updateMovies);
+routes.delete('/movies/:id', deleteMovies);
+routes.get('/movie/season/:id', season);
 
 routes.post('/users/register', createUser);
 routes.post('/users/login', login);
